@@ -17,5 +17,6 @@ public class ex2 {
 		}
 		return temp;
 	}
+	
 
 }
