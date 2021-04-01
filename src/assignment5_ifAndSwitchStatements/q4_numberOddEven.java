@@ -14,7 +14,6 @@ public class q4_numberOddEven {
 		}else {
 			System.out.println("please enter a valid positive number");
 		}
-
 	}
 
 }
