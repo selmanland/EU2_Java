@@ -12,7 +12,7 @@ public class q4_numberOddEven {
 		}else if(num>0 && num%2==0){
 			System.out.println(num + " is even");
 		}else {
-			System.out.println("please enter a positive number");
+			System.out.println("please enter a valid positive number");
 		}
 
 	}
