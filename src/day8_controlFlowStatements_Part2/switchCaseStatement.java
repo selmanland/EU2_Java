@@ -4,7 +4,7 @@ public class switchCaseStatement {
 
 	public static void main(String[] args) {
 
-		String weather="windy";
+		String weather="sunny";
 		
 		switch(weather) {
 		
