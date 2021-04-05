@@ -3,7 +3,16 @@ package assignment7_nestedForLoop;
 public class q4_number101Pattern {
 
 	public static void main(String[] args) {
-		// q4
+/*
+1
+10
+101
+1010
+10101
+101010
+1010101
+
+ */
 
 		int rows = 7;
 

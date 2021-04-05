@@ -3,7 +3,15 @@ package assignment7_nestedForLoop;
 public class q5_squareNumbersPattern {
 
 	public static void main(String[] args) {
-		// q5
+/*
+1111111
+1111122
+1111333
+1114444
+1155555
+1666666
+7777777
+ */
 
 		int rows = 7;
 

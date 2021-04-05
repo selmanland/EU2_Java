@@ -3,7 +3,13 @@ package assignment7_nestedForLoop;
 public class q6_numberTrianglePattern {
 
 	public static void main(String[] args) {
-		// q6
+/**
+1 
+2 6 
+3 7 10 
+4 8 11 13 
+5 9 12 14 15 
+ */
 		
 		int rows = 5;
 
