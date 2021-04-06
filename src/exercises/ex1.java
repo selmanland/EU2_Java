@@ -1,18 +1,26 @@
 package exercises;
 
+import java.text.DecimalFormat;
+
 public class ex1 {
 
 	public static void main(String[] args) {
 		
-		int x = 11; 
-        x &= 7;
-        System.out.println(x);
-	}
+		DecimalFormat formatter = new DecimalFormat("00");
+	      
+	      // Simulate the clock.
+	      for (int hours = 1; hours <= 2; hours++)
+	      {
+	          for (int minutes = 0; minutes <= 59; minutes++)
+	          {
+	             for (int seconds = 0; seconds <= 59; seconds++)
+	             {
+	                System.out.println(formatter.format(hours) + ":" + 
+	                            formatter.format(minutes) + ":" + 
+	                            formatter.format(seconds)); 
+	             }
+	          }
+	       }}
 
-	/**
-	 * 	11 ==> 1011  
-	 * 	7  ==> 0111  
-	 *  11 & 7 = 0011 
-	 *  0011 ==> 1 x 2^0 + 1 x 2^1 + 0 x 2^2 + 0 x 2^3 = 3
-	 */
+	
 }
