@@ -101,12 +101,18 @@ Write a program with a variable that holds the number of milligrams of
 caffeine in a drink and outputs how many drinks it takes to kill a person.
  */
 		// Answer 6
-		int lethalOverdose=10000;
+		int lethalOverdose=10000;	// 10 grams => 10000 milligrams
 		int mgOfCaffeine;
-		int killNumberDrink;
+		int killNumberDrink = 0;
 		
-		mgOfCaffeine=15;
-		killNumberDrink=lethalOverdose/mgOfCaffeine;
+		mgOfCaffeine = 14;
+		
+		do {
+			
+			killNumberDrink++;
+			
+		} while(mgOfCaffeine * killNumberDrink <= 10000);
+		
 		
 		System.out.println("Number of milligrams in a drink: " + mgOfCaffeine);
 		System.out.println("It would take about " + killNumberDrink + " drinks for a lethal overdose");
