@@ -3,7 +3,9 @@ package assignment3_arithmeticOperators;
 public class assignment3_arithmeticOperators {
 
 	public static void main(String[] args) {
-		
+/*
+Write a program to convert gallons into Liters and display it.
+ */
 		// Answer 1
 		double gallon, liter;
 		
@@ -24,7 +26,14 @@ public class assignment3_arithmeticOperators {
 		System.out.println("Hello " + name + "! Based on your input, your age is " + age + " :)");
 		
 		System.out.println("*************************************************");
+
 		
+/*
+Write a Java program that displays the area of a rectangle with a width of 4.5 
+and a height of 7.9 using the following formula:
+
+area = width * height
+*/
 		// Answer 3
 		double width, height, area;
 		width=4.5;
@@ -34,20 +43,40 @@ public class assignment3_arithmeticOperators {
 		System.out.println("Area of the rectangle is " + area);
 		
 		System.out.println("*************************************************");
-		
+
+/*
+Declare 2 variables (Num1, Num2)
+
+Swap values between Num1 and Num2
+
+Display new values of Num1 and Num2
+ */
 		// Answer 4
-		int num1, num2, num;
+		int num1, num2, numTemp;
 		num1=10;
 		num2=20;		
 		
 		System.out.println("n1=" + num1);
 		System.out.println("n2=" + num2);
+		
+		numTemp = num1;
+		num1 = num2;
+		num2 = numTemp;
+		
 		System.out.println("------------");
-		System.out.println("n1=" + num2);
-		System.out.println("n2=" + num1);
+		System.out.println("n1=" + num1);
+		System.out.println("n2=" + num2);
 		
 		System.out.println("*************************************************");
 		
+		
+/*
+Write a program that outputs the number of hours, minutes, and seconds that 
+corresponds to input total seconds.
+
+-Declare int variables inputSeconds, hours, minutes, seconds
+-Initialize the inputSeconds 
+ */
 		// Answer 5
 		int inputSeconds, hours, minutes, seconds, remain;
 		
@@ -63,6 +92,14 @@ public class assignment3_arithmeticOperators {
 		
 		System.out.println("*************************************************");
 		
+		
+/*
+Scientists estimate that roughly 10 grams of caffeine consumed at one time 
+is a lethal overdose.
+
+Write a program with a variable that holds the number of milligrams of 
+caffeine in a drink and outputs how many drinks it takes to kill a person.
+ */
 		// Answer 6
 		int lethalOverdose=10000;
 		int mgOfCaffeine;
@@ -75,7 +112,14 @@ public class assignment3_arithmeticOperators {
 		System.out.println("It would take about " + killNumberDrink + " drinks for a lethal overdose");
 		
 		System.out.println("*************************************************");
+
 		
+/*
+Write a program that determines the change to be dispensed from a vending machine. 
+An item in the machine can cost between 25 cents and 1 dollar, in 5-cent increments 
+(25, 30, 35, . . . , 90, 95, or 100), and the machine accepts only a single dollar 
+bill to pay for the item.
+ */
 		// Answer 7
 		int itemPrice;
 		int changeBack1, changeBack2, changeBack3, changeBack4;
