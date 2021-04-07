@@ -105,13 +105,13 @@ caffeine in a drink and outputs how many drinks it takes to kill a person.
 		int mgOfCaffeine;
 		int killNumberDrink = 0;
 		
-		mgOfCaffeine = 14;
+		mgOfCaffeine = 1000;
 		
 		do {
 			
 			killNumberDrink++;
 			
-		} while(mgOfCaffeine * killNumberDrink <= 10000);
+		} while(mgOfCaffeine * killNumberDrink < 10000);
 		
 		
 		System.out.println("Number of milligrams in a drink: " + mgOfCaffeine);
@@ -128,20 +128,20 @@ bill to pay for the item.
  */
 		// Answer 7
 		int itemPrice;
-		int changeBack1, changeBack2, changeBack3, changeBack4;
+		int changeBackAfterPrice, changeBackAsQ, changeBackAsD, changeBackAsN;
 		int quarters, dimes, nickles;
 		
-		itemPrice=10;
-		changeBack1=100-itemPrice;
+		itemPrice = 15;
+		changeBackAfterPrice = 100 - itemPrice;
 
-        quarters = changeBack1/25;
-        changeBack2 = changeBack1 %25;
+        quarters = changeBackAfterPrice / 25;
+        changeBackAsQ = changeBackAfterPrice % 25;
 
-        dimes = changeBack2/10;
-        changeBack3 = changeBack2 %10;
+        dimes = changeBackAsQ / 10;
+        changeBackAsD = changeBackAsQ % 10;
 
-        nickles = changeBack3/5;
-        changeBack4 = changeBack3 %5;
+        nickles = changeBackAsD / 5;
+        changeBackAsN = changeBackAsD % 5;
         
         System.out.println("Price in cents : " + itemPrice);
         System.out.println("Your change is " + quarters + " quarters, " + dimes + " dimes, and " + nickles + " nickles");
