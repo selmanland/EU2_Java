@@ -3,19 +3,24 @@ package exercises;
 public class ex2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		System.out.println(repl("Hello", 3));
+/*
+Write a program that outputs the number of hours, minutes, and seconds that 
+corresponds to input total seconds.
 
-	}
-	public static String repl(String str, int rpt) {
+	-Declare int variables inputSeconds, hours, minutes, seconds
+	-Initialize the inputSeconds 
+*/
+	
+		int inputSeconds, hours, minutes, seconds;
+		inputSeconds = 15895;
 		
-		String temp = "";
+		hours = inputSeconds / 60 / 60;
+		minutes = (inputSeconds / 60) % 60;
+		seconds = inputSeconds % 60;
 		
-		for(int i=1; i<=rpt; i++) {
-			temp = temp + str;
-		}
-		return temp;
+		System.out.println(inputSeconds + " seconds => " + hours + " hours " + minutes + " minutes and " + seconds + " seconds.");
+	
 	}
 	
 
