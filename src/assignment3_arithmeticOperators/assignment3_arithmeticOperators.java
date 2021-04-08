@@ -9,8 +9,8 @@ Write a program to convert gallons into Liters and display it.
 		// Answer 1
 		double gallon, liter;
 		
-		gallon=15;
-		liter=3.79*gallon;
+		gallon = 15;
+		liter = 3.79 * gallon;
 		
 		System.out.println(gallon + " gallon is " + liter + " liter");
 		
@@ -18,10 +18,10 @@ Write a program to convert gallons into Liters and display it.
 		
 
 		// Answer 2
-		String name="Halim";
+		String name = "Halim";
 		int birthYear = 1973;
 		int age;
-		age=2020-birthYear;
+		age = 2021 - birthYear;
 		
 		System.out.println("Hello " + name + "! Based on your input, your age is " + age + " :)");
 		
@@ -36,9 +36,9 @@ area = width * height
 */
 		// Answer 3
 		double width, height, area;
-		width=4.5;
-		height=7.9;
-		area=width*height;
+		width = 4.5;
+		height = 7.9;
+		area = width * height;
 		
 		System.out.println("Area of the rectangle is " + area);
 		
@@ -52,7 +52,7 @@ Swap values between Num1 and Num2
 Display new values of Num1 and Num2
  */
 		// Answer 4
-		int num1, num2, numTemp;
+		int num1, num2, numTemp; // create a temp variable and use it to swap numbers
 		num1=10;
 		num2=20;		
 		
@@ -80,12 +80,12 @@ corresponds to input total seconds.
 		// Answer 5
 		int inputSeconds, hours, minutes, seconds, remain;
 		
-		inputSeconds=15895;
-		hours=inputSeconds / (60*60);
-		remain=inputSeconds % (hours*60*60);
-		minutes=remain / 60;
-		remain=remain - (minutes*60);
-		seconds=remain;
+		inputSeconds = 3695;
+		hours = inputSeconds / (60*60);
+		remain = inputSeconds % (hours*60*60);
+		minutes = remain / 60;
+		remain = remain - (minutes*60);
+		seconds = remain;
 		
 		System.out.println("inputSecond is " + inputSeconds);
 		System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds");
@@ -105,7 +105,7 @@ caffeine in a drink and outputs how many drinks it takes to kill a person.
 		int mgOfCaffeine;
 		int killNumberDrink = 0;
 		
-		mgOfCaffeine = 1000;
+		mgOfCaffeine = 952;
 		
 		do {
 			
@@ -125,6 +125,8 @@ Write a program that determines the change to be dispensed from a vending machin
 An item in the machine can cost between 25 cents and 1 dollar, in 5-cent increments 
 (25, 30, 35, . . . , 90, 95, or 100), and the machine accepts only a single dollar 
 bill to pay for the item.
+
+1 dollar = 4 quarters = 10 dimes = 20 nickels
  */
 		// Answer 7
 		int itemPrice;

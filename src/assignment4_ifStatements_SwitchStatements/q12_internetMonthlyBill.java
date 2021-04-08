@@ -4,8 +4,8 @@ public class q12_internetMonthlyBill {
 
 	public static void main(String[] args) {
 		
-		String internetPackage="C";
-		int usage=59;
+		String internetPackage="A";
+		int usage=101;
 		
 		switch(internetPackage) {
 		case "A":
