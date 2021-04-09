@@ -80,7 +80,7 @@ corresponds to input total seconds.
 		// Answer 5
 		int inputSeconds, hours, minutes, seconds, remain;
 		
-		inputSeconds = 3695;
+		inputSeconds = 13695;
 		hours = inputSeconds / (60*60);
 		remain = inputSeconds % (hours*60*60);
 		minutes = remain / 60;

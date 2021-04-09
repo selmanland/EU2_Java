@@ -4,15 +4,13 @@ public class ex2 {
 
 	public static void main(String[] args) {
 		
-		int cupMiligram=310;
-	    int NumberOfCup=0;
-
-
-
-	            for(NumberOfCup=0; NumberOfCup*cupMiligram<10000; NumberOfCup++) {
-
-	            }
-	            System.out.println("It would take about " + NumberOfCup + " drinks for a lethal overdose");
+		int inputSeconds, hours, minutes, seconds;
+        inputSeconds = 13695;
+        hours = inputSeconds / (60 * 60);
+        minutes = hours % 60;
+        seconds = inputSeconds % 60;
+        System.out.println("inputSecond is " + inputSeconds);
+        System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds");
 	}
 	
 
