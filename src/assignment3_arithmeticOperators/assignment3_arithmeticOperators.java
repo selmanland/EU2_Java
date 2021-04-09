@@ -51,7 +51,7 @@ Swap values between Num1 and Num2
 
 Display new values of Num1 and Num2
  */
-		// Answer 4
+		// 1st way
 		int num1, num2, numTemp; // create a temp variable and use it to swap numbers
 		num1=10;
 		num2=20;		
@@ -69,6 +69,16 @@ Display new values of Num1 and Num2
 		
 		System.out.println("*************************************************");
 		
+		// 2nd way
+//		int num1=20;
+//        int num2=10;
+//
+//        num2=num2-num1;
+//        num1=num2+num1;
+//        num2=num1-num2;
+//
+//        System.out.println("num1 "+num1);
+//        System.out.println("num2 "+num2);
 		
 /*
 Write a program that outputs the number of hours, minutes, and seconds that 
