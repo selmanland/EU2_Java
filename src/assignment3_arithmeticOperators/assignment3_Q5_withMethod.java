@@ -18,7 +18,8 @@ corresponds to input total seconds.
 	}
 	public static void calculateTime(int timeInSeconds) {
 		
-		int inputSeconds, hours, minutes, seconds, remain;
+		int inputSeconds, hours, minutes, seconds, remain; 
+	
 		
 		inputSeconds = timeInSeconds;
 		hours = inputSeconds / (60*60);
@@ -28,7 +29,7 @@ corresponds to input total seconds.
 		seconds = remain;
 				
 		System.out.println("inputSecond is " + inputSeconds + " seconds equals to:");
-		System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds...");
+		System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds......");
 	}
 
 }
