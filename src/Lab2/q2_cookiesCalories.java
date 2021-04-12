@@ -14,7 +14,7 @@ public class q2_cookiesCalories {
 		Scanner user_input = new Scanner(System.in);
 		System.out.println("Enter the number of cookies you ate : ");
 		double calories = user_input.nextDouble();
-		System.out.println("Number of total calories consumeed is : " + (calories * perEach));
+		System.out.println("Number of total calories consumed is : " + (calories * perEach));
 
 	}
 

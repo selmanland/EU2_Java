@@ -16,6 +16,7 @@ public class q3_sumNumbers {
 		Scanner user_input = new Scanner(System.in);
 		System.out.println("Enter a positive integer number : ");
 		int num = user_input.nextInt();
+		//can use if statement to check the num is + or -
 
 		int sum = 0;
 		for (int i = 1; i <= num; i++) {

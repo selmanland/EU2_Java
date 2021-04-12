@@ -4,40 +4,42 @@ public class ex1 {
 
 	public static void main(String[] args) {
 
-/*
-Write a Java program to print the following pattern:
+		//int currentAge = calculateAge(2021, 1986);
+        //System.out.println(currentAge);
 
-1 2 3 4 5 6 7
-1 2 3 4 5 6
-1 2 3 4 5
-1 2 3 4
-1 2 3
-1 2
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-1 2 3 4 5 6
-1 2 3 4 5 6 7
- */
-		int rows = 7;
-		int columns = 7;
-		
-		for(int i = 1; i<=7; i++) {
-			for(int j = 1; j<=8-i; j++) {
-				System.out.print(j);
-			}
-			System.out.println();
-		}
-		
-		for(int i = 2; i<=7; i++) {
-			for(int j = 1; j<=i; j++) {
-				System.out.print(j);
-			}
-			System.out.println();
-		}
-		
-	}
+        yearsuntilRetirement("mike", 65, 2021, 1996);
+
+
+        // System.out.println(" "+ "is retire in "+ years+ "years");
+        //  System.out.println(years);
+        //System.out.println(name);
+
+
+    }
+
+
+    public static int calculateAge(int year , int yearBirth) {
+        int age;
+        age=year-yearBirth;
+        return age;
+
+
+
+    }
+    public static int yearsuntilRetirement(String name, int retirementAge, int year, int yearBirth) {
+
+        //int retirementAge=65;
+        int currentAge = calculateAge(year, yearBirth);
+        int years = retirementAge-currentAge;
+        System.out.println(name + " is " + currentAge + " years old and has " + years + " years to retire...");
+        //System.out.println(name+"will be retire in "+ years+" years");
+
+        //System.out.println(name);
+        return years;
+
+
+
+
+    }
 
 }
