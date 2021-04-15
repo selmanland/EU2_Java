@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class q13_waterBill {
 
 	public static void main(String[] args) {
-		// q13 water bill
+/*
+Create a method which calculates a water bill, the method gets a double and returns a double.
+
+The more water you use the more it will cost you (as a fine for wasting water).
+ */
 
 		double totalBill = calculateBill(0);
 		System.out.println("Your water bill is : " + totalBill);
