@@ -1,6 +1,6 @@
 package day16_classObjects;
 
-public class employee {
+public class Employee {
 
 	String name;
 	String jobTitle;

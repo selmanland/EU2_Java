@@ -4,7 +4,7 @@ public class objectTaskEmployeeClass {
 
 	public static void main(String[] args) {
 
-		employee person1 = new employee();
+		Employee person1 = new Employee();
 		System.out.println(person1.name);
 
 		person1.name = "Ahmet";
@@ -15,7 +15,7 @@ public class objectTaskEmployeeClass {
 		System.out.println(person1.jobTitle);
 		System.out.println(person1.salary);
 
-		employee person2 = new employee();
+		Employee person2 = new Employee();
 		System.out.println(person2.name);
 
 		person2.name = "Mehmet";
@@ -31,7 +31,7 @@ public class objectTaskEmployeeClass {
 
 		System.out.println();
 
-		employee person3 = new employee();
+		Employee person3 = new Employee();
 		person3.name = "Halim";
 		person3.jobTitle = "Chief";
 		person3.salary = 2800;
