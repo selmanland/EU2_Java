@@ -22,11 +22,6 @@ The program should use a loop to get the sum of all the integers from 1 up to th
 		
 		int sum = 0; //create an empty bucket to sum numbers
 		
-		while(num <= 0) {
-			//after a non-positive number
-            System.out.println("You should enter only none-zero positive numbers!");
-		}
-		
 		if(num > 0) {
 			
 			for (int i = 1; i <= num; i++) {
@@ -37,7 +32,8 @@ The program should use a loop to get the sum of all the integers from 1 up to th
             
 
         }else if (num <= 0) {
-        	
+        	//after a non-positive number
+            System.out.println("You should enter only none-zero positive numbers!");
             
         }
 
