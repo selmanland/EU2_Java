@@ -18,6 +18,5 @@ public class task84_tenCoinToss {
 			}
 
 		}
-
 	}
 }
