@@ -27,6 +27,8 @@ public class task83_rollDice {
 
 		}
 		System.out.println("Have a nice day :)");
+		
+		sc.close();
 	}
 
 }

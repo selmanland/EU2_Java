@@ -33,6 +33,7 @@ public class MathTutor {
 			System.out.println("Correct answer is : " + sum);
 		}
 
+		sc.close();
 	}
 
 }

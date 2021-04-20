@@ -29,6 +29,7 @@ public class task82_Login {
 		}else if(userName.equals(userNameInSystem) && password.equals(passwordInSystem)) {
 			System.out.println("User logged in  successfully");
 		}
+		sc.close();
 	}
 
 }
