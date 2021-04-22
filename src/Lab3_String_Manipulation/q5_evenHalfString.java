@@ -12,6 +12,8 @@ public class q5_evenHalfString {
 		String str = user_input.nextLine();		
 
 		firstHalf(str);
+		
+		user_input.close();
 
 	}
 
