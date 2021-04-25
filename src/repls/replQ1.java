@@ -4,6 +4,7 @@ public class replQ1 {
 
 	public static void main(String[] args) {
 		
+		
 /**
  * Write even numbers from 1 to 50
  */
