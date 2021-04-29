@@ -2,11 +2,9 @@ package Assm10_;
 
 import java.util.Scanner;
 
-public class Assm10_q24_StringJavaPython {
+public class example {
 
 	public static void main(String[] args) {
-//		Given a string, print out true if the number of appearances of "java" anywhere in the string is 
-//		equal to the number of appearances of "python" anywhere in the string (case sensitive).
 
 		String sample = "We study java not python";
 
@@ -54,4 +52,5 @@ public class Assm10_q24_StringJavaPython {
 		}
 
 	}
+
 }
