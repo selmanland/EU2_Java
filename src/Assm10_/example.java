@@ -6,50 +6,30 @@ public class example {
 
 	public static void main(String[] args) {
 
-		String sample = "We study java not python";
+		System.out.println(simpleRoomBook(false, 2, 1, 2018));
 
-		Scanner sc = new Scanner(System.in);
+	}
 
-		System.out.println("Enter a first input=");
+	public static boolean simpleRoomBook(boolean availbility, int month, int day, int year) {
 
-		String input1 = sc.next();
-		System.out.println();
+		if (year == 2018) {
 
-		System.out.println("Enter a second input=");
+			if (availbility == true) {
 
-		String input2 = sc.next();
+				if (month == 7 && (day >= 1 && day <= 8)) {
+					return false;
+				} else {
+					return true;
+				}
 
-		int count1 = 0;
-		int count2 = 0;
-
-		for (int i = 0; i <= sample.length() - input1.length(); i++) {
-
-			if (sample.substring(i, i + input1.length()).equals(input1)) {
-
-				count1++;
-				System.out.println("count1 " + count1);
-
+			} else {
+				return false;
 			}
-
-		}
-
-		for (int i = 0; i <= sample.length() - input2.length(); i++) {
-
-			if (sample.substring(i, i + input2.length()).equals(input2)) {
-
-				count2++;
-				System.out.println("count2 " + count2);
-			}
-
-		}
-
-		if (count1 == count2) {
-
-			System.out.println(true);
 
 		} else {
-			System.out.println(false);
+			return false;
 		}
+
 
 	}
 
